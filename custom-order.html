@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist - Custom Order</title>
+    <link rel="stylesheet" href="assets/css/setting.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="fit-height">
+        <header class="container-fluid header-fluid">
+            <nav class="container header">
+                <div class="row">
+                    <div class="col-12 identity item-middle item-center">
+                        <div>
+                            <a href="index.html">
+                                <img src="assets/img/hanbinlogo.png" alt="">
+                            </a>
+                        </div>
+
+                        <div class="shop-icon">
+                            <a href="#">
+                                <i class="fa fa-search"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-shopping-cart"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 list-navigation">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="shop.html">shop</a></li>
+                            <li class="active"><a href="custom-order.html">custom order</a></li>
+                            <li><a href="about-us.html">about us</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="container-fluid custom-order-content-section">
+            <div class="col-12 content-custom-order-title">
+                <h2>custom order</h2>
+            </div>
+
+            <div class="container">
+                <div class="col-12 form-section item-center w-100">
+                    <div class="col-8">
+                        <div class="w-100 content-custom-order-desc">
+                            <p>
+                                You can make your own creation. Just describe your creation below. <br>
+                                We will contact you for more details.
+                            </p>
+                        </div>
+                        <form action="" method="POST" name="CustomOrder" id="custom_order_form">
+                            <div class="form-group">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" name="Name" class="form-control name" placeholder="Your Name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" name="Email" class="form-control email" placeholder="Your Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Phone" class="form-control phone" placeholder="Your Phone">
+                            </div>
+                            <div class="form-group">
+                                <textarea name="Message" class="form-control message" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn-orange-shallow form-control">send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="container-fluid bg-smooth-gray footer-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 copyright item-middle">
+                    <a href="#">
+                        &copy; Hanbin Florist 2020
+                    </a>
+                </div>
+                <div class="col-4 list-sosmed item-middle item-center">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-4 list-web-info">
+                    <ul>
+                        <li><a href="#">guide</a></li>
+                        <li><a href="#">faq</a></li>
+                        <li><a href="#">terms & conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	<script src="assets/plugins/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
